@@ -1,55 +1,61 @@
 <template>
-  <div>
+  <div class="container">
+    <div id="header" class="flex justify-between item-center">
+      <h1><nuxt-link class="link-header" to="/">static-site-generators</nuxt-link></h1>
+      <div id="menu" class="flex">
+        <div><nuxt-link class="menu-link" to="/allgemeines">Allgemeines</nuxt-link></div>
+        <div><nuxt-link class="menu-link" to="/funktion">Funktion</nuxt-link></div>
+        <div><nuxt-link class="menu-link" to="/vergleich"> Vergleich</nuxt-link></div>
+        <div class="link"><nuxt-link class="menu-link" to="/umsetzung">Umsetzung</nuxt-link></div>
+      </div>
+    </div>
     <nuxt />
   </div>
 </template>
 
+
 <style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
+  .container {
+    color: black;
+    font-family: "Helvetica Neue";
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
+  }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
+  #header {
+    background-color: #fff;
+    box-shadow: 0 8px 5px -6px grey;
+    padding: 10px 20px 10px 20px ;
+    position: relative;
+    z-index: 100;
+  }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
+  .link-header {
+    color: black;
+    padding-left: 30px;
+    text-decoration: none;
+  }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+  .menu-link {
+    color: black;
+    padding-left: 10px;
+    text-decoration: none;
+  }
+
+  .menu-link:hover {
+    color: #1d707c;
+  }
+
+  #menu {
+    padding-top: 10px;
+    padding-right: 40px;
+  }
+
+  @media (min-width: 600px) {
+    .container {
+      max-width: 100%;
+    }
+  }
 </style>
