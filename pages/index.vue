@@ -30,7 +30,6 @@
             <nuxt-link class="button-function" to="/funktion">Read more</nuxt-link>
         </div>
 
-        <div class="shadow"></div>
         <div class="content-vergleich">
             <img class="image-vergleich" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Vergleich</h1>
@@ -73,15 +72,14 @@
                     Marleen Lorenz
                 </p>
             </div>
-        </div>
     </div>
 </template>
 
 
 <script>
-export default {
+    export default {
 
-}
+    }
 </script>
 
 
@@ -166,7 +164,7 @@ export default {
         z-index: 0;
         padding-bottom: 3px;
         box-shadow: inset 0px 0px 5px 2px grey;
-        background-color: #d3d3d3;
+        background-color: #e3e3e3;
     }
 
     .content-allgemeines {
@@ -177,7 +175,7 @@ export default {
     }
 
     .content-function {
-        background-color: #e0e0e0;
+        background-color: #e3e3e3;
         position: relative;
         z-index: 0;
         padding-bottom: 40px;
@@ -191,7 +189,7 @@ export default {
     }
 
     .content-umsetzung {
-        background-color: #e0e0e0;
+        background-color: #e3e3e3;
         position: relative;
         z-index: 100;
         padding-bottom: 40px;
@@ -262,13 +260,6 @@ export default {
         padding-bottom: 50px;
         width: 700px;
         float: right;
-    }
-
-    .shadow {
-        position:relative;
-        z-index: 300;
-        box-shadow: -1px -9px 3px -3px grey;
-
     }
 
     .slider {

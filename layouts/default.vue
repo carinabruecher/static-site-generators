@@ -50,7 +50,7 @@
 
   #menu {
     padding-top: 10px;
-    padding-right: 40px;
+    padding-right: 60px;
   }
 
   @media (min-width: 600px) {
