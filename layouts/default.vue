@@ -29,7 +29,7 @@
     box-shadow: 0 8px 5px -6px grey;
     padding: 10px 20px 10px 20px ;
     position: relative;
-    z-index: 100;
+    z-index: 900;
   }
 
   .link-header {
