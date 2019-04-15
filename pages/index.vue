@@ -6,9 +6,11 @@
         </div>
 
         <div class="content-allgemeines">
-            <img class="image-allgemeines" src="../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
+            <img class="image-allgemeines" src="../assets/Slider.jpg"
+                 alt="allgemeines zu statische Website Generatoren"/>
             <h1 class="content-headline-allgemeines">Allgemeines</h1>
-            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
+            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten.
+                Damit das Layout nun
                 nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
                 diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes
                 Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie
@@ -20,25 +22,31 @@
         <div class="content-function">
             <img class="image-functions" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-function">Funktion</h1>
-            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
+            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten.
+                Damit das Layout nun
                 nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
                 diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes
                 Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie
                 nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten, möchte ich diese Gelegenheit
-                nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen, das es ebenso verdient
-                wahrgenommen zu <werden class=></werden> </p>
+                nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen, das es ebenso
+                verdient
+                wahrgenommen zu
+                <werden class=></werden>
+            </p>
             <nuxt-link class="button-function" to="/funktion">Read more</nuxt-link>
         </div>
 
         <div class="content-vergleich">
             <img class="image-vergleich" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Vergleich</h1>
-            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
+            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten.
+                Damit das Layout nun
                 nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
                 diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes
                 Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie
                 nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten, möchte ich diese Gelegenheit
-                nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen, das es ebenso verdient
+                nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen, das es ebenso
+                verdient
                 wahrgenommen zu werden. </p>
             <nuxt-link class="button-vergleich" to="/vergleich">Read more</nuxt-link>
         </div>
@@ -46,7 +54,8 @@
         <div class="content-umsetzung">
             <img class="image-umsetzung" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-umsetzung">Umsetzung</h1>
-            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
+            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten.
+                Damit das Layout nun
                 nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
                 diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes
                 Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie
@@ -56,34 +65,50 @@
         </div>
 
         <div class="footer">
-            <p class="thank-you-text">
-                Wenn dir diese Seite geholfen hat, <br>
-                würden wir uns über ein kleines Dankeschön freuen :-) <br>
-                Auch über Verbesserungsvorschläge freuen wir uns sehr. <br>
-                <nuxt-link to="/impressum">Impressum</nuxt-link> <br>
-                <nuxt-link to="/kontakt">Kontakt</nuxt-link>
-            </p>
+            <div class="table">
+                <table id="table-footer">
+                    <tr>
+                        <td>
+                            Maximillian Acker <br>
+                            Carina Brücher <br>
+                            Christina Bünnagel <br>
+                            Marleen Lorenz
+                        </td>
+                        <td>
+                            Wenn dir diese Seite geholfen hat, <br>
+                            würden wir uns über ein kleines Dankeschön freuen :-) <br>
+                            Auch über Verbesserungsvorschläge freuen wir uns sehr. <br>
+                        </td>
+                        <td>
+                            <nuxt-link class="footer-link" to="/impressum">Impressum</nuxt-link>
+                            <br>
+                            <nuxt-link class="footer-link" to="/kontakt">Kontakt</nuxt-link>
+                        </td>
+                    </tr>
+                </table>
             </div>
-            <div class="text-who">
-                <p>
-                    Maximillian Acker <br>
-                    Carina Brücher <br>
-                    Christina Bünnagel <br>
-                    Marleen Lorenz
-                </p>
-            </div>
+        </div>
     </div>
 </template>
 
 
 <script>
-    export default {
-
-    }
+    export default {}
 </script>
 
 
 <style>
+
+    .table {
+        padding-top: 20px;
+        padding-left: 60px;
+        padding-bottom: 40px;
+        width: 100%;
+    }
+
+    #table-footer {
+        width: 100%;
+    }
 
     .body {
         padding-top: 50px;
@@ -108,18 +133,18 @@
     }
 
     .button-function {
-             background-color: #1d707c;
-             border: none;
-             color: white;
-             padding: 10px 10px;
-             text-align: center;
-             text-decoration: none;
-             display: inline-block;
-             font-size: 16px;
-             margin-top: 20px;
-             margin-left: 60px;
-             cursor: pointer;
-         }
+        background-color: #1d707c;
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 60px;
+        cursor: pointer;
+    }
 
     .button-function:hover {
         background-color: #22a8b4;
@@ -292,9 +317,8 @@
     }
 
     .footer-link {
-        padding-top: 20px;
-        padding-left: 40%;
-        width: 100px;
+        text-decoration: none;
+        color: black;
     }
 
     .text-who {

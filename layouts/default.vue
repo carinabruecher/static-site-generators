@@ -30,7 +30,7 @@
     position: fixed;
     top: 0;
     z-index: 900;
-    width: 100%;
+      width: 100%;
   }
 
   .link-header {
