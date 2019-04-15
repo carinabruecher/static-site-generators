@@ -18,7 +18,6 @@
   .container {
     color: black;
     font-family: "Helvetica Neue";
-
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 
@@ -28,8 +27,10 @@
     background-color: #fff;
     box-shadow: 0 8px 5px -6px grey;
     padding: 10px 20px 10px 20px ;
-    position: relative;
+    position: fixed;
+    top: 0;
     z-index: 900;
+    width: 100%;
   }
 
   .link-header {

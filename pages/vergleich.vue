@@ -3,7 +3,7 @@
         <div class="header">
             <img class="vergleich-headerimage" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Vergleich</h1>
-            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
+            <p class="summery-text-vergleich">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
                 nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
                 diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes
                 Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie
@@ -11,8 +11,11 @@
         </div>
         <div class="short-vergleich">
             <h2 class="subheadline">Kurzübersicht über die Static-Site Generatoren</h2>
-            <p class="short-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht<br>
-                nackt im Raume steht und sich klein und leer vorkommt, springe ich ein.</p>
+            <p class="short-text">Welcher Generator kann eigentlich was? Wofür sind die unterschiedlichen Generatoren geeignet?
+                Welchen sollte ich für mein Projekt verwenden? <br>
+                Die Antwort dieser Fragen ist natürlich einerseits Geschmackssache. Als Entscheidungshilfe haben wir in dieser Tabelle
+                die wichtigsten Unterschiede einiger static-site Generator zusammengefasst.
+            </p>
             <img class="vergleich-tabelle" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
         </div>
         <div class="grid-overview">
@@ -31,6 +34,13 @@
 </template>
 
 <style>
+
+    .summery-text-vergleich {
+        padding-bottom: 30px;
+        padding-right: 80px;
+        padding-top: 15px;
+        text-align: justify;
+    }
 
     .teaser-generatoren {
         width: 600px;

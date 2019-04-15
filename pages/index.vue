@@ -85,6 +85,10 @@
 
 <style>
 
+    .body {
+        padding-top: 50px;
+    }
+
     .button-allgemeines {
         background-color: #1d707c;
         border: none;
