@@ -65,7 +65,6 @@
         background-color: #e3e3e3;
         position: relative;
         z-index: 0;
-        padding-bottom: 50px;
         box-shadow: inset 0px 0px 5px 2px grey;
     }
 
@@ -73,7 +72,7 @@
         background-color: #e3e3e3;
         position: relative;
         z-index: 0;
-        padding-bottom: 50px;
+        padding-bottom: 40px;
         box-shadow: inset 0px 0px 5px 2px grey;
     }
 

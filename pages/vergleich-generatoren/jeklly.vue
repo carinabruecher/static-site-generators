@@ -1,6 +1,6 @@
 <template>
     <div class="body">
-        <div class="header">
+        <div class="header-jeklly">
             <img class="logo-generator-hugo" src="../../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Jeklly</h1>
             <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
@@ -68,6 +68,14 @@
                 den größten Nutzen ziehen.
             </p>
         </div>
+        <div class="grid-overview">
+            <nuxt-link class="left-1" to="hugo">
+                <img class="teaser-generatoren" src="../../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
+            </nuxt-link>
+            <nuxt-link class="rechts" to="nuxtjs">
+                <img class="teaser-generatoren" src="../../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
+            </nuxt-link>
+        </div>
     </div>
 </template>
 
@@ -78,6 +86,14 @@
 
 
 <style>
+
+    .header-jeklly {
+        background-color: #e3e3e3;
+        position: relative;
+        z-index: 0;
+        padding-bottom: 40px;
+        box-shadow: inset 0px 0px 5px 2px grey;
+    }
 
     .how-to {
         background-color: #e3e3e3;
