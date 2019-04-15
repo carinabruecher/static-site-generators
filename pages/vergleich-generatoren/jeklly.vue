@@ -52,21 +52,29 @@
                 <br>
             </p>
         </div>
-        <div class="step-light">
-            <img class="image-step-1" src="../../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
-            <h1 class="content-headline">About Jeklly</h1>
-            <p class="summery-text">
-                Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
-                nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
-                diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes Mal,
-                wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie nun
-                schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten, möchte ich diese Gelegenheit nutzen,
-                Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen, das es ebenso verdient
-                wahrgenommen zu werden: Webstandards nämlich. Sehen Sie, Webstandards sind das Regelwerk, auf dem Webseiten
-                aufbauen. So gibt es Regeln für HTML, CSS, JavaScript oder auch XML; Worte, die Sie vielleicht schon einmal
-                von Ihrem Entwickler gehört haben. Diese Standards sorgen dafür, dass alle Beteiligten aus einer Webseite
-                den größten Nutzen ziehen.
-            </p>
+        <div class="step-light-table">
+            <table id="pros-cons-hugo">
+                <tr>
+                    <th>Vorteile</th>
+                    <th>Nachteile</th>
+                </tr>
+                <tr>
+                    <td>Bastards are born of passion, aren't they?</td>
+                    <td>Winter is coming.</td>
+                </tr>
+                <tr>
+                    <td>We don't despise them in Dorne.</td>
+                    <td>Dunc the Lunk, thick as a castle wall.</td>
+                </tr>
+                <tr>
+                    <td>Fire and blood.</td>
+                    <td>The Knight of Lemonwood.</td>
+                </tr>
+                <tr>
+                    <td>King in the North.</td>
+                    <td>Each should have its own reward.</td>
+                </tr>
+            </table>
         </div>
         <div class="grid-overview">
             <nuxt-link class="left-1" to="hugo">
