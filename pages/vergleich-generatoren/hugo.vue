@@ -78,10 +78,10 @@
         </div>
         <div class="grid-overview">
             <nuxt-link class="left-1" to="jeklly">
-                <img class="teaser-generatoren" src="../../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
+                <img class="teaser-generatoren" src="../../assets/teaser-jekyll.jpg" alt="Funktionen statische Website Generatoren"/>
             </nuxt-link>
             <nuxt-link class="rechts" to="nuxtjs">
-                <img class="teaser-generatoren" src="../../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
+                <img class="teaser-generatoren" src="../../assets/teaser-nuxt.jpg" alt="Funktionen statische Website Generatoren"/>
             </nuxt-link>
         </div>
     </div>

@@ -2,11 +2,11 @@
     <div class="body">
 
         <div class="content-top-slider">
-            <img class="slider-image" src="../assets/Slider.jpg" alt="slider"/>
+            <img class="slider-image" src="../assets/top-slider.jpg" alt="slider"/>
         </div>
 
         <div class="content-allgemeines">
-            <img class="image-allgemeines" src="../assets/Slider.jpg"
+            <img class="image-allgemeines" src="../assets/teaser-bild-allgemeines.jpg"
                  alt="allgemeines zu statische Website Generatoren"/>
             <h1 class="content-headline-allgemeines">Allgemeines</h1>
             <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten.
@@ -20,7 +20,7 @@
         </div>
 
         <div class="content-function">
-            <img class="image-functions" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
+            <img class="image-functions" src="../assets/teaser-bild-funktion.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-function">Funktion</h1>
             <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten.
                 Damit das Layout nun
@@ -30,14 +30,12 @@
                 nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten, möchte ich diese Gelegenheit
                 nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen, das es ebenso
                 verdient
-                wahrgenommen zu
-                <werden class=></werden>
             </p>
             <nuxt-link class="button-function" to="/funktion">Read more</nuxt-link>
         </div>
 
         <div class="content-vergleich">
-            <img class="image-vergleich" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
+            <img class="image-vergleich" src="../assets/teaser-bild-vergleich.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Vergleich</h1>
             <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten.
                 Damit das Layout nun
@@ -52,7 +50,7 @@
         </div>
 
         <div class="content-umsetzung">
-            <img class="image-umsetzung" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
+            <img class="image-umsetzung" src="../assets/teaser-bild-umsetzung.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-umsetzung">Umsetzung</h1>
             <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten.
                 Damit das Layout nun

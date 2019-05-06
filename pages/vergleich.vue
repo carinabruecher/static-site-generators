@@ -1,7 +1,7 @@
 <template>
     <div class="body">
         <div class="header">
-            <img class="vergleich-headerimage" src="../assets/Slider.jpg"
+            <img class="vergleich-headerimage" src="../assets/header-bild-vergleich.jpg"
                  alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Vergleich</h1>
             <p class="summery-text-vergleich">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf
@@ -177,16 +177,16 @@
         </div>
         <div class="grid-overview">
             <nuxt-link class="left-1" to="vergleich-generatoren/hugo">
-                <img class="teaser-generatoren" src="../assets/Slider.jpg"
+                <img class="teaser-generatoren" src="../assets/teaser-hugo.jpg"
                      alt="Funktionen statische Website Generatoren"/>
             </nuxt-link>
             <nuxt-link class="rechts" to="/vergleich-generatoren/jeklly">
-                <img class="teaser-generatoren" src="../assets/Slider.jpg"
+                <img class="teaser-generatoren" src="../assets/teaser-jekyll.jpg"
                      alt="Funktionen statische Website Generatoren"/>
             </nuxt-link>
             <br>
             <nuxt-link class="left-2" to="/vergleich-generatoren/nuxtjs">
-                <img class="teaser-generatoren" src="../assets/Slider.jpg"
+                <img class="teaser-generatoren" src="../assets/teaser-nuxt.jpg"
                      alt="Funktionen statische Website Generatoren"/>
             </nuxt-link>
         </div>

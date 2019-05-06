@@ -1,7 +1,7 @@
 <template>
     <div class="body">
         <div class="step-dark">
-            <img class="image-umsetzung-header" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
+            <img class="image-umsetzung-header" src="../assets/header-bild-umsetzung.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline">How to use a static-site generator - step by step</h1>
             <p class="summery-text-top">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
                 nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
@@ -12,7 +12,7 @@
         <div class="step-light">
             <img class="image-step-1" src="../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
             <h1 class="content-headline">
-                <img class="number-picture" src="../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
+                <img class="number-picture" src="../assets/eins.jpg" alt="allgemeines zu statische Website Generatoren"/>
                 Schritt 1
             </h1>
             <p class="summery-text">
@@ -29,7 +29,7 @@
         <div class="step-dark">
             <img class="image-step-2" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline">
-                <img class="number-picture" src="../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
+                <img class="number-picture" src="../assets/zwei.jpg" alt="allgemeines zu statische Website Generatoren"/>
                 Schritt 2
             </h1>
             <p class="summery-text-1">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
@@ -43,7 +43,7 @@
         <div class="step-light">
             <img class="image-step-1" src="../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
             <h1 class="content-headline">
-                <img class="number-picture" src="../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
+                <img class="number-picture" src="../assets/drei.jpg" alt="allgemeines zu statische Website Generatoren"/>
                 Schritt 3
             </h1>
             <p class="summery-text">
@@ -60,7 +60,7 @@
         <div class="step-dark">
             <img class="image-step-2" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline">
-                <img class="number-picture" src="../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
+                <img class="number-picture" src="../assets/vier.jpg" alt="allgemeines zu statische Website Generatoren"/>
                 Schritt 4
             </h1>
             <p class="summery-text-1">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
@@ -74,7 +74,7 @@
         <div class="step-light">
             <img class="image-step-1" src="../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
             <h1 class="content-headline">
-                <img class="number-picture" src="../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
+                <img class="number-picture" src="../assets/fünf.jpg" alt="allgemeines zu statische Website Generatoren"/>
                 Schritt 5
             </h1>
             <p class="summery-text">
