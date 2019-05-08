@@ -3,26 +3,27 @@
         <div class="header-jeklly">
             <img class="logo-generator-hugo" src="../../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Jeklly</h1>
-            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
-                nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
-                diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes
-                Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie
-                nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten. </p>
+            <p class="summery-text">Jekyll wurde von GitHub-Gründer Tom Preston-Werner ins Leben gerufen und ist Grund für
+                die steigende Beliebtheit der statischen Website Generatoren. Jekyll verfügt über eine Integration mit Git.
+                Ruby ist die Sprache die für den Generator verwendet wird. Jekyll kann in allen Bereichen der Webentwicklung
+                verwendet werden, da es sowohl für Firmenseiten, aber auch anderen alle Anforderungen gewachsen ist.
+                Überzeugt die User durch eine stabile Laufleistung, verschiedene Möglichkeiten zur generation von Webseiten
+                stehen als Vorlage zur Verfügung. </p>
         </div>
         <div class="step-light">
             <img class="image-step-1" src="../../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
             <h1 class="content-headline">Merkmale</h1>
             <p class="summery-text">
-                -  Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. <br>
-                -  Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders <br>
-                -  Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt <br>
-                -  Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. <br>
-                -  Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt <br>
-                -  Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders <br>
-                -  Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt <br>
-                -  Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. <br>
-                -  Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders <br>
-                -  Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt <br>
+                -  alle Inhalte werden in Textdateien gespeichert <br>
+                -  sehr gut für Blogs <br>
+                -  Inhalte werden im Stammverzeichnis als Markdown oder HTML gespeichert  <br>
+                -  Dateien können mit Front-Mark-Feldern versehen werden <br>
+                -  schnelle Performance für Suchmaschinen Optimierung <br>
+                -  keine weiteren Datenbanken notwendig <br>
+                -  unkomplizierte Umzug von Webseiten <br>
+                -  Plug Ins auf Git verfügbar <br>
+                -  keine Sicherheitslücken <br>
+                -  kaum Wartungsarbeiten <br>
             </p>
         </div>
         <div class="how-to">
@@ -59,20 +60,36 @@
                     <th>Nachteile</th>
                 </tr>
                 <tr>
-                    <td>Bastards are born of passion, aren't they?</td>
-                    <td>Winter is coming.</td>
+                    <td>viele kostenlose Themes</td>
+                    <td>Basiert auf Ruby (erfordert Ruby-Umgebung auf Rechner)</td>
                 </tr>
                 <tr>
-                    <td>We don't despise them in Dorne.</td>
-                    <td>Dunc the Lunk, thick as a castle wall.</td>
+                    <td>Designs können einfach installiert werden</td>
+                    <td>langsame Buildzeiten</td>
                 </tr>
                 <tr>
-                    <td>Fire and blood.</td>
-                    <td>The Knight of Lemonwood.</td>
+                    <td>einfache und flexible Template-Engine</td>
+                    <td>fehlende integrierte Funktion</td>
                 </tr>
                 <tr>
-                    <td>King in the North.</td>
-                    <td>Each should have its own reward.</td>
+                    <td>reichhaltige Themenbibliothek</td>
+                    <td>fehlende Erstanbieter - Funktionen für bessere Integration und Unterstützung </td>
+                </tr>
+                <tr>
+                    <td>Tool und Formatunabhänig</td>
+                    <td>komplizierte Installation</td>
+                </tr>
+                <tr>
+                    <td>GitHub Pages Integration</td>
+                    <td>nur Befehlszeile möglich</td>
+                </tr>
+                <tr>
+                    <td>kaum Serverlast</td>
+                    <td>viele Programmierkenntnisse notwendig (Html, CSS, Javascript, Ruby)</td>
+                </tr>
+                <tr>
+                    <td>einfache Entwicklung und Pflege</td>
+                    <td>keine Echtzeit Plugins</td>
                 </tr>
             </table>
         </div>

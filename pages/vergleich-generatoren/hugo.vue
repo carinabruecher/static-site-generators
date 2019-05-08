@@ -3,53 +3,81 @@
         <div class="header-hugo">
             <img class="logo-generator-hugo" src="../../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Hugo</h1>
-            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun
-                nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
-                diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes
-                Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie
-                nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten. </p>
+            <p class="summery-text">Mit Hugo haben wir das schnellste Framework das derzeit auf dem Markt zu finden ist.
+                Es zeigt hohe Qualitäten in punkto Geschwindigkeit und Flexibilität. Außerdem ist Hugo ein kostenloser
+                Open Source Generator für statische Webseiten. Hugo kann mit vorgefertigten Vorlagen arbeiten und bietet
+                damit eine vielzahl an Möglichkeiten. Über 300 sehr einfach installierbare Themes hat Hugo zur Verfügung,
+                diese ermöglichen es Webseiten einfach und schnell zu erstellen. Der Generator basiert auf der Sprache GO.
+            </p>
         </div>
         <div class="step-light">
             <img class="image-step-1" src="../../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
             <h1 class="content-headline">Merkmale</h1>
             <p class="summery-text">
-                -  Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. <br>
+                -  extrem schnelle Bauzeiten <br>
+                -  das System ist plattformübergreifend und kann ganz einfach auf Mac OS und Windows Systemen installiert werden <br>
+                -  das Hosten der Site ist überall möglich <br>
+                -  anpassbare URLs und Unterstützung sprechender URLs <br>
+                -  einfache Organisation für Projekte und einfach Wartung <br>
+                -  Unterstützung für konfigurierbare Taxonomien  <br>
+                -  SEO fähig <br>
+                -  verschiedene Ausgaben möglich (JSON oder AMP) <br>
                 -  Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders <br>
-                -  Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt <br>
-                -  Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. <br>
-                -  Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt <br>
-                -  Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders <br>
-                -  Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt <br>
-                -  Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. <br>
-                -  Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders <br>
-                -  Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt <br>
+                -  geeignet für Blogs, Unternehmenswebseiten oder einer Landing Page <br>
             </p>
         </div>
         <div class="how-to">
             <img class="console-picture" src="../../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Step by Step</h1>
             <p class="summery-text">
-                <strong>Schritt 1: </strong> Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. <br>
+                <i>Installation Hugo</i>
                 <br>
-                <strong>Schritt 2: </strong>  Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. <br>
+                <strong>Schritt 1: </strong> ~ brew install hugo <br>
                 <br>
-                <strong>Schritt 3: </strong>  Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«,
-                freue ich mich jedes Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. <br>
+                <strong>Schritt 2: </strong>  ~ hugo version <br>
                 <br>
-                <strong>Schritt 4: </strong> Und weil Sie nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten,
-                möchte ich diese Gelegenheit nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen,
-                das es ebenso verdient wahrgenommen zu werden: Webstandards nämlich. <br>
+                <i>Neue Seite erstellen</i>
                 <br>
-                <strong>Schritt 5: </strong> Sehen Sie, Webstandards sind das Regelwerk, auf dem Webseiten aufbauen.
-                So gibt es Regeln für HTML, CSS, JavaScript oder auch XML;<br>
+                <strong>Schritt 3: </strong> ~ hugo new site SEITENNAMEN<br>
                 <br>
-                <strong>Schritt 6: </strong> Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. <br>
+                <i>Neues Theme hinzufügen</i>
                 <br>
-                <strong>Schritt 7: </strong>  Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«,
-                freue ich mich jedes Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. <br>
+                <strong>Schritt 4: </strong> ~ cd SEITENNAME <br>
                 <br>
-                <strong>Schritt 8: </strong>  Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. <br>
+                <strong>Schritt 5: </strong> ~ git init<br>
                 <br>
+                <strong>Schritt 6: </strong> ~ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke <br>
+                (git submodule add pfad-zum-gewünschten-theme theme-pfad-im-projekt)
+                <br>
+                <br>
+                <strong>Schritt 7: </strong> ~ echo 'theme = "ananke"' >>config.taml <br>
+                <br>
+                <i>Inhalt hinzufügen</i>
+                <br>
+                <strong>Schritt 8: </strong> ~ hugo new posts/my-first-post.md <br>
+                (hugo new datei-die-angelegt-werden-soll)
+                <br>
+                <br>
+                <i>Hugo Server starten</i>
+                <br>
+                <strong>Schritt 9: </strong> ~ hugo server -D <br>
+                <br>
+                <br>
+                <strong>Seitenvorschau anschauen</strong> <br>
+                Um eine Vorschau der Seite im Browser zu sehen muss man auf die URL <i>localhost:1313</i> gehen
+                <br>
+                <br>
+                <strong>Inhalte einfügen oder verändern</strong> <br>
+                Um Inhalte zu ändern oder einzufügen kann man das gesamte Projekt also in diesem Fall den Ordner quickstart
+                in einer Entwicklungsumgebung wie PHP Storm öffnen oder man öffnet die Dateien in einem Texteditor.
+                <br>
+                <br>
+                <strong>Generieren der Html-Dokumente</strong> <br>
+                ~ hugo <br>
+                mit dem command hugo werden die Html-Dokumente generiert, nach dem ausführen erscheint ein neuer Ordner
+                "public" in diesem befinden sich die generierten Dokumente. Um die Website nun zu hosten muss nur dieser Ordner
+                auf den Server des Hostinganbieters geladen werden. <br>
+                <i>Wichtig: bevor man den Command "hugo" erneut ausführt sollte man den Ordner public löschen</i> <br>
             </p>
         </div>
         <div class="step-light-table">
@@ -59,21 +87,42 @@
                         <th>Nachteile</th>
                     </tr>
                     <tr>
-                        <td>Bastards are born of passion, aren't they?</td>
-                        <td>Winter is coming.</td>
+                        <td>schnellstes Werkzeug seiner Art</td>
+                        <td>komplexe Wartung</td>
                     </tr>
                     <tr>
-                        <td>We don't despise them in Dorne.</td>
-                        <td>Dunc the Lunk, thick as a castle wall.</td>
+                        <td>einfache Markdown Syntax</td>
+                        <td>benötigt Vorkenntnisse mit der Arbeit an der Konsole und solide Grundkenntnisse beim Programmieren</td>
                     </tr>
                     <tr>
-                        <td>Fire and blood.</td>
-                        <td>The Knight of Lemonwood.</td>
+                        <td>umfassende Unterstützung</td>
+                        <td>Installation von Git und andere Entwicklungsebenen für GO nötig</td>
                     </tr>
                     <tr>
-                        <td>King in the North.</td>
-                        <td>Each should have its own reward.</td>
+                        <td>Ausgabe in verschiedenen Formaten</td>
+                        <td>manuelle Codierung setzt Verständnis voraus</td>
                     </tr>
+                    <tr>
+                        <td>plattformübergreifend</td>
+                        <td>komplex eigene Themes zu erstellen</td>
+                    </tr>
+                    <tr>
+                        <td>einfach Menüerstellung</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>viele Themes</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>manuelle Codierung</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>keine Abhängigkeiten von Datenbanken</td>
+                        <td></td>
+                    </tr>
+
                 </table>
         </div>
         <div class="grid-overview">

@@ -4,12 +4,17 @@
             <img class="vergleich-headerimage" src="../assets/header-bild-vergleich.jpg"
                  alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Vergleich</h1>
-            <p class="summery-text-vergleich">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf
-                sich warten. Damit das Layout nun
-                nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
-                diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes
-                Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie
-                nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten. </p>
+            <p class="summery-text-vergleich">Welcher Generator ist der richtige für mich? Um diese Frage zu beantworten
+                haben wir uns viele Gedanken gemacht. Insgesamt bietet das Netz ein Überangebot an statischen Webseiten
+                Generatoren, derzeit gibt es mehrere hundert verschiedene. Doch welchen soll ich nutzen? Für diese Frage
+                müssen vorab einige Dinge geklärt werden, welche Absichten habe ich, welche Kenntnisse habe ich im
+                programmieren.
+                Um Euch all diese Dinge zu erleichtern, haben wir einen Vergleich von den für uns geeignetsten Generatoren
+                auf dem Markt gemacht. Wir haben die Generatoren HUGO, Nuxt.js und Jekyll miteinander verglichen.
+                Dabei gehen wir auf alle wichtigen Dinge ein von der Funktionsweise, über die Vor und Nachteile.
+                Außerdem haben wir eine Schritt für Schritt Anleitung für jeden Generator erstellt um Euch den Einstieg zu
+                erleichtern.
+            </p>
         </div>
         <div class="short-vergleich">
             <h2 class="subheadline">Kurzübersicht über die Static-Site Generatoren</h2>
@@ -294,7 +299,7 @@
     }
 
     .vergleich-headerimage {
-        height: 230px;
+        height: 280px;
         padding-top: 30px;
         padding-left: 55px;
         padding-right: 20px;
