@@ -9,27 +9,25 @@
             <img class="image-allgemeines" src="../assets/teaser-bild-allgemeines.jpg"
                  alt="allgemeines zu statische Website Generatoren"/>
             <h1 class="content-headline-allgemeines">Allgemeines</h1>
-            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten.
-                Damit das Layout nun
-                nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
-                diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes
-                Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie
-                nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten, möchte ich diese Gelegenheit
-                nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen. </p>
+            <p class="summery-text">Mit statischen Webseiten-Generatoren kann man komplette Websites erstellen ohne
+                ein Content Management System (CMS) zu benutzen. Mittlerweile gibt es über 400 verschiedene Tools auf
+                dem Markt. Vor allem kleine Internetseiten wie Blogs, Unternehmensseiten oder private Homepages können
+                auch schon mit ausschließlich statischen Inhalten überzeugen. Zudem ist die Umsetzung etwas einfacher,
+                da man auch auf vorgefertigte Layouts zurückgreifen kann.
+                Weitere Informationen findet ihr weiter unten.</p>
             <nuxt-link class="button-allgemeines" to="/allgemeines">Read more</nuxt-link>
         </div>
 
         <div class="content-function">
             <img class="image-functions" src="../assets/teaser-bild-funktion.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-function">Funktion</h1>
-            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten.
-                Damit das Layout nun
-                nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
-                diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes
-                Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie
-                nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten, möchte ich diese Gelegenheit
-                nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen, das es ebenso
-                verdient
+            <p class="summery-text">Statische Webseiten-Generatoren sind Codegerüste mit deren Hilfe statische
+                Webseiten
+                erstellt werden können. Der HTML-Code wird lokal auf dem Rechner erzeugt, bei der Nutzung sind also
+                keine
+                Datenbanken oder serverseitige Sprachen, wie PHP, nötig. Die Generatoren müssen über die Kommandozeile
+                sowohl installiert als auch bedient werden, da die große Mehrheit der Generatoren keine
+                Benutzeroberfläche hat.
             </p>
             <nuxt-link class="button-function" to="/funktion">Read more</nuxt-link>
         </div>
@@ -37,29 +35,13 @@
         <div class="content-vergleich">
             <img class="image-vergleich" src="../assets/teaser-bild-vergleich.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Vergleich</h1>
-            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten.
-                Damit das Layout nun
-                nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
-                diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes
-                Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie
-                nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten, möchte ich diese Gelegenheit
-                nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen, das es ebenso
-                verdient
-                wahrgenommen zu werden. </p>
+            <p class="summery-text">Welcher Generator ist der richtige für mich?
+                Um Euch all diese Dinge zu erleichtern, haben wir einen Vergleich von den für uns geeignetsten Generatoren
+                auf dem Markt gemacht. Wir haben die Generatoren HUGO, Nuxt.js und Jekyll miteinander verglichen.
+                Dabei gehen wir auf alle wichtigen Dinge ein von der Funktionsweise, über die Vor und Nachteile.
+                Außerdem haben wir eine Schritt für Schritt Anleitung für jeden Generator erstellt um Euch den Einstieg zu
+                erleichtern. </p>
             <nuxt-link class="button-vergleich" to="/vergleich">Read more</nuxt-link>
-        </div>
-
-        <div class="content-umsetzung">
-            <img class="image-umsetzung" src="../assets/teaser-bild-umsetzung.jpg" alt="Funktionen statische Website Generatoren"/>
-            <h1 class="content-headline-umsetzung">Umsetzung</h1>
-            <p class="summery-text">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten.
-                Damit das Layout nun
-                nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu
-                diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes
-                Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie
-                nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten, möchte ich diese Gelegenheit
-                nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen. </p>
-            <nuxt-link class="button-umsetzung" to="/umsetzung">Read more</nuxt-link>
         </div>
 
         <div class="footer">
