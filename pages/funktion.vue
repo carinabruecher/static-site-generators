@@ -13,7 +13,7 @@
                 Benutzeroberfläche hat.</p>
         </div>
         <div class="step-light">
-            <img class="image-step-1" src="../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
+            <img class="image-step-1" src="../assets/technischedetails-image.jpg" alt="allgemeines zu statische Website Generatoren"/>
             <h1 class="content-headline">Technische Details</h1>
             <p class="summery-text">
                 Alle Komponenten für die Seite liegen in einem Verzeichnis, wo sie getrennt nach Layout und Content

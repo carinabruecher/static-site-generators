@@ -13,7 +13,7 @@
             </p>
         </div>
         <div class="step-light">
-            <img class="image-step-1" src="../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
+            <img class="image-step-1" src="../assets/was-ist-ein-statischer-website-generator.jpg" alt="allgemeines zu statische Website Generatoren"/>
             <h1 class="content-headline">Was ist ein statischer Webseiten-Generator?</h1>
             <p class="summery-text">
                 Statische Webseiten-Generatoren, auch Static-Site-Generatoren genannt, sind fertige Codegerüste, auf
@@ -35,8 +35,8 @@
                 übertragen werden.
             </p>
         </div>
-        <div class="step-dark">
-            <img class="image-step-2" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
+        <div class="step-dark-1">
+            <img class="image-step-2" src="../assets/wann-sind-generatoren-sinnvoll-image.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline">Wann ist der Einsatz von statischen Webseiten Generatoren sinnvoll?</h1>
             <p class="summery-text-1">Auf jeden Fall bedenken sollte man, dass die Generatoren von Entwicklern für
                 Entwickler sind, und man einiges an technischem Wissen benötigt, um sie zu benutzen. Außerdem sollte man
@@ -103,10 +103,10 @@
                 </table>
             </div>
         </div>
-        <div class="step-dark">
-            <img class="image-step-2" src="../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
+        <div class="step-dark-2">
+            <img class="image-step-3" src="../assets/fazit-image.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline">Fazit</h1>
-            <p class="summery-text-1">Am besten geeignet sind statische Webseiten-Generatoren für Blogs. Die meisten
+            <p class="summery-text-3">Am besten geeignet sind statische Webseiten-Generatoren für Blogs. Die meisten
                 Generatoren wurden für den Aufbau eines Blogs entwickelt, dementsprechend bieten sie dafür auch die meisten
                 Möglichkeiten. Neben Blogs eignen sich statische Webseiten-Generatoren aber auch für Webseiten für
                 kleine und mittlere Unternehmen, Dokumentationen und Hilfetexte. Deren Inhalte ändern sich nicht oft und
@@ -131,6 +131,22 @@
         position: relative;
         z-index: 0;
         padding-bottom: 50px;
+        box-shadow: inset 0px 0px 5px 2px grey;
+    }
+
+    .step-dark-1 {
+        background-color: #e3e3e3;
+        position: relative;
+        z-index: 0;
+        padding-bottom: 80px;
+        box-shadow: inset 0px 0px 5px 2px grey;
+    }
+
+    .step-dark-2 {
+        background-color: #e3e3e3;
+        position: relative;
+        z-index: 0;
+        padding-bottom: 70px;
         box-shadow: inset 0px 0px 5px 2px grey;
     }
 
@@ -171,6 +187,13 @@
     }
 
     .summery-text-1 {
+             padding-bottom: 60px;
+             padding-right: 80px;
+             padding-top: 15px;
+             text-align: justify;
+         }
+
+    .summery-text-3 {
         padding-bottom: 60px;
         padding-right: 80px;
         padding-top: 15px;
@@ -211,6 +234,16 @@
     }
 
     .image-step-2 {
+        height: 320px;
+        padding-top: 40px;
+        padding-left: 55px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+        width: 550px;
+        float: left;
+    }
+
+    .image-step-3 {
         height: 320px;
         padding-top: 40px;
         padding-left: 55px;

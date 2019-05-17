@@ -6,7 +6,6 @@
         <div><nuxt-link class="menu-link" to="/allgemeines">Allgemeines</nuxt-link></div>
         <div><nuxt-link class="menu-link" to="/funktion">Funktion</nuxt-link></div>
         <div><nuxt-link class="menu-link" to="/vergleich"> Vergleich</nuxt-link></div>
-        <div class="link"><nuxt-link class="menu-link" to="/umsetzung">Umsetzung</nuxt-link></div>
       </div>
     </div>
     <nuxt />

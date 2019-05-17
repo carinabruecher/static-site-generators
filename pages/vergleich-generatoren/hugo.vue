@@ -1,7 +1,7 @@
 <template>
     <div class="body">
         <div class="header-hugo">
-            <img class="logo-generator-hugo" src="../../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
+            <img class="logo-generator-hugo" src="../../assets/header-image-hugo.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Hugo</h1>
             <p class="summery-text">Mit Hugo haben wir das schnellste Framework das derzeit auf dem Markt zu finden ist.
                 Es zeigt hohe Qualitäten in punkto Geschwindigkeit und Flexibilität. Außerdem ist Hugo ein kostenloser
@@ -11,7 +11,7 @@
             </p>
         </div>
         <div class="step-light">
-            <img class="image-step-1" src="../../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
+            <img class="image-step-1" src="../../assets/merkmal-image-hugo.jpg" alt="allgemeines zu statische Website Generatoren"/>
             <h1 class="content-headline">Merkmale</h1>
             <p class="summery-text">
                 -  extrem schnelle Bauzeiten <br>
@@ -27,8 +27,7 @@
             </p>
         </div>
         <div class="how-to">
-            <img class="console-picture" src="../../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
-            <h1 class="content-headline-vergleich">Step by Step</h1>
+            <h1 class="headline-step-by-step">Step by Step</h1>
             <p class="summery-text">
                 <i>Installation Hugo</i>
                 <br>
@@ -143,6 +142,15 @@
 
 
 <style>
+
+    .headline-step-by-step {
+        padding-top: 40px;
+        padding-left: 60px;
+        font-size: 20pt;
+        color: #1d707c;
+    }
+
+    .content-headline-
 
     table {
         border-collapse: collapse;

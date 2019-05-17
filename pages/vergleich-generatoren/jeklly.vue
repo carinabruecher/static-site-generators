@@ -1,7 +1,7 @@
 <template>
     <div class="body">
         <div class="header-jeklly">
-            <img class="logo-generator-hugo" src="../../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
+            <img class="logo-generator-hugo" src="../../assets/header-image-jekyll.jpg" alt="Funktionen statische Website Generatoren"/>
             <h1 class="content-headline-vergleich">Jeklly</h1>
             <p class="summery-text">Jekyll wurde von GitHub-Gründer Tom Preston-Werner ins Leben gerufen und ist Grund für
                 die steigende Beliebtheit der statischen Website Generatoren. Jekyll verfügt über eine Integration mit Git.
@@ -11,7 +11,7 @@
                 stehen als Vorlage zur Verfügung. </p>
         </div>
         <div class="step-light">
-            <img class="image-step-1" src="../../assets/Slider.jpg" alt="allgemeines zu statische Website Generatoren"/>
+            <img class="image-step-1" src="../../assets/merkmal-image-jekyll.jpg" alt="allgemeines zu statische Website Generatoren"/>
             <h1 class="content-headline">Merkmale</h1>
             <p class="summery-text">
                 -  alle Inhalte werden in Textdateien gespeichert <br>
@@ -27,30 +27,53 @@
             </p>
         </div>
         <div class="how-to">
-            <img class="console-picture" src="../../assets/Slider.jpg" alt="Funktionen statische Website Generatoren"/>
-            <h1 class="content-headline-vergleich">Step by Step</h1>
+            <h1 class="headline-step-by-step">Step by Step</h1>
             <p class="summery-text">
-                <strong>Schritt 1: </strong> Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. <br>
+                <i>Installation Ruby Umgebung</i>
                 <br>
-                <strong>Schritt 2: </strong>  Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. <br>
+                <strong>Schritt 1: </strong> ~ brew install ruby <br>
                 <br>
-                <strong>Schritt 3: </strong>  Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«,
-                freue ich mich jedes Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. <br>
+                <i>Prüfen ob es funktioniert hat</i>
                 <br>
-                <strong>Schritt 4: </strong> Und weil Sie nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten,
-                möchte ich diese Gelegenheit nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen,
-                das es ebenso verdient wahrgenommen zu werden: Webstandards nämlich. <br>
+                <strong>Schritt 2: </strong>  ~ which ruby <br>
                 <br>
-                <strong>Schritt 5: </strong> Sehen Sie, Webstandards sind das Regelwerk, auf dem Webseiten aufbauen.
-                So gibt es Regeln für HTML, CSS, JavaScript oder auch XML;<br>
+                <strong>Schritt 3: </strong> ~ ruby -v <br>
                 <br>
-                <strong>Schritt 6: </strong> Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. <br>
+                <i>Installation Jekyll</i>
                 <br>
-                <strong>Schritt 7: </strong>  Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«,
-                freue ich mich jedes Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. <br>
+                <strong>Schritt 4: </strong> ~ gem install --user-install bundler jekyll <br>
                 <br>
-                <strong>Schritt 8: </strong>  Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. <br>
+                <strong>Schritt 5: </strong> ~ ruby -v<br>
                 <br>
+                <strong>Schritt 6: </strong> ~ export PATH=$Home/.gem/ruby/X.X.0/bin:$PATH <br>
+                (die beiden X werden durch die ersten beiden Zahlen der Ruby Version ersetzt)
+                <br>
+                <i>Neue Jekyll Seite erstellen</i>
+                <br>
+                <strong>Schritt 7: </strong> ~ jekyll new beispiel-seite <br>
+                (beispiel-seite durch den Namen der Seite ersetzten)
+                <br>
+                <i>Inhalt hinzufügen</i>
+                <br>
+                <strong>Schritt 8: </strong> ~ hugo new posts/my-first-post.md <br>
+                (hugo new datei-die-angelegt-werden-soll)
+                <br>
+                <br>
+                <i>Localen Server starten um die Site im Browser zu sehen</i>
+                <br>
+                <strong>Schritt 9: </strong> ~ cd beispiel-seite <br>
+                (beispielseite wieder durch den Seitennamen ersetzten)
+                <br>
+                <br>
+                <strong>Schritt 10: </strong> ~ bundle exec jekyll serve<br>
+                <br>
+                <br>
+                <strong>Vorschau der Site im Browser sehen</strong> <br>
+                Um die Vorschau der Site im Browser zu sehen muss man zu der URL "localhost:4000" gehen
+                <br>
+                <br>
+                <strong>Generieren der Html-Dokumente</strong> <br>
+                ~ Jekyll build <br>
             </p>
         </div>
         <div class="step-light-table">
@@ -111,6 +134,13 @@
 
 
 <style>
+
+    .headline-step-by-step {
+        padding-top: 40px;
+        padding-left: 60px;
+        font-size: 20pt;
+        color: #1d707c;
+    }
 
     .header-jeklly {
         background-color: #e3e3e3;
